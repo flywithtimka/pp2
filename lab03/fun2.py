@@ -1,5 +1,4 @@
 def centig(faren):
-    print((5/9)*(faren - 32))
-centig(451)  
-centig(600)
-centig(550)  
+    return (5/9)*( faren -  32)
+faren = float(input("Enter the number:"))
+print(f"{faren} is equal to {centig(faren):.2f}")

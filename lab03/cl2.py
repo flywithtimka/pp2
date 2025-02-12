@@ -10,9 +10,6 @@ class Square(Shape):
         """Returns the area of the square (length * length)."""
         return self.length * self.length
 
- 
-shape = Shape()
-print("Shape area:", shape.area())   
-
-square = Square(5)
-print("Square area:", square.area())  
+length = float(input("Enter the number"))
+square = Square(length)
+print(f"{square.area()}")  

@@ -1,4 +1,4 @@
- class Shape:
+class Shape:
     def area(self):
         return 0
 
@@ -11,5 +11,7 @@ class Rectangle(Shape):
         return self.length * self.width
 
 
-rect = Rectangle(5, 10)
+length = float(input("Enter the length:"))
+width = float(input("Enter the width:"))
+rect = Rectangle(length,width)
 print("Rectangle area:", rect.area()) 
